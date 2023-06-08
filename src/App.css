@@ -148,8 +148,8 @@ body {
   gap: .5rem;
 }
 
-.ExitPage__container{
-  text-align: center;
+.ExitPage__container p{
+  margin-inline: 2rem;
 }
 
 .background__img{
