@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import { useAuth } from "../Context";
 
-const DogPicture = ({ props }) => {
+const InputFeild = ({ props }) => {
   const auth = useAuth();
   // const [name, setName] = useState("");
   return (
@@ -24,4 +24,4 @@ const DogPicture = ({ props }) => {
   );
 };
 
-export default DogPicture;
+export default InputFeild;

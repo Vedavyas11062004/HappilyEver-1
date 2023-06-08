@@ -16,7 +16,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleClick = () => {
     const usermsg = createClientMessage("Got it!");
     const botMessage = createChatBotMessage("Enter your name", {
-      widget: "dogPicture",
+      widget: "InputFeild",
     });
     setState((prev) => ({
       ...prev,
