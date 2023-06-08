@@ -8,11 +8,11 @@ export default function Age({props}) {
     auth.setingAge(event.target.value);
   };
   return (
-    <div>
+    <div className="InputContainer">
       {/* {auth.user} */}
       <label>
         Age:
-        <select value={auth.age} onChange={handleAgeChange}>
+        <select value={auth.age} onChange={handleAgeChange} className="InputBox">
           <option value="">Select Age</option>
           <option value="18">18</option>
           <option value="19">19</option>
@@ -21,7 +21,7 @@ export default function Age({props}) {
           {/* Add more age options as needed */}
         </select>
       </label>
-      <button onClick={props.actionProvider.handleExit}>submit</button>
+      <button onClick={props.actionProvider.handleExit} className="Button-bot">submit</button>
     </div>
   );
 }

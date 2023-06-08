@@ -19,7 +19,7 @@ const DogPicture = ({ props }) => {
           }}
         />
       </label>
-      <button onClick={props.actionProvider.handleSubmit}>submit</button>
+      <button onClick={props.actionProvider.handleSubmit} className="Button-bot">submit</button>
     </div>
   );
 };

@@ -34,7 +34,7 @@ export default function ExitComponent() {
     <div>
       <div>
         <button onClick={handleButtonClick} className='Button-bot' >Exit</button>
-        <div>{startCountdown ? count : ""}</div>
+        {startCountdown && <div className="counter"> {count} </div>}
       </div>
     </div>
   );
