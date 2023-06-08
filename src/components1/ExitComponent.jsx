@@ -22,7 +22,6 @@ export default function ExitComponent() {
 
     if (count === 0) {
       clearInterval(countdownTimer);
-      // Redirect to page 3
       history("/page3");
     }
 

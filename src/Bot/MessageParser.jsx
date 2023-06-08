@@ -1,15 +1,11 @@
 import React from 'react';
 
-const isHandled=true
 
 const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
     console.log(message);
     if (message.includes('hello')) {
       actions.handleHello();
-    }
-    if (isHandled) {
-        actions.handleDog()
     }
   };
 
