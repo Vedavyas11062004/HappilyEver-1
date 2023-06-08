@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+  background-color: rgb(1, 30, 98);
+  height: 70vh;
+  position: relative;
+}
+
+.footer {
+  background-color: rgb(224, 227, 229);
+  height: 50vh;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1660196988 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1660196988 svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 181px;
+}
+
+.custom-shape-divider-bottom-1660196988 .shape-fill {
+    fill:rgb(1, 30, 98);
+}
+
