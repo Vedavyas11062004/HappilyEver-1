@@ -9,6 +9,7 @@ export default function LandingPage() {
       <div className="LandingPage__innercontainer">
         <div className="LandingPage__innercontainer">
           <h1>You AI Assistant</h1>
+          <h2>hello app</h2>
           <p>
             This software application is designed specifically for student
             enrollment purposes. It provides a streamlined and efficient process
